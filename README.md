@@ -18,11 +18,11 @@ This linear model cannot be effectively predict as there are only two variables 
 
 Looking into the summary stats of the suspension coils, the 100 pounds per square inch requirement is met. The variance is at 62.2 and that is below the specification of 100 PSI.
 
-[!total_summary](/total_summary_deliv2.PNG)
+![total_summary](/total_summary_deliv2.PNG)
 
 However, the below image shows that lot 3 nearly doubles that variance required and does not meet the specified criteria at that plant. 
 
-[!lot_summary_deliv2](lot_summary_deliv2.PNG)
+![lot_summary_deliv2](lot_summary_deliv2.PNG)
 
 ## T-Tests on Suspension Coils
 
@@ -30,25 +30,25 @@ However, the below image shows that lot 3 nearly doubles that variance required 
 
 The t-test summary below displays the t-value, p-value for the lots as a whole. The t-value of -1.89 is a small number which indicates that the lots are similiar in production of coils. A p-value of 6% indicates that the results of consistently meeting the requirement of 1500 PSI is reliable and not by chance.
 
-[!ttest_summary](ttest_summary.PNG)
+![ttest_summary](ttest_summary.PNG)
 
 ### t-test Lot 1
 
 The t-test result for Lot 1 indicate that this manufactoring plant has an ideal process. The t-value is zero. The data meets the mean of 1500. The process at this plant is repeatable and accurate.
 
-[!ttest_lot1](ttest_lot1.PNG)
+![ttest_lot1](ttest_lot1.PNG)
 
 ### t-test Lot 2
 
 The t-test result for Lot 2 has a p-value of 60% that means there are other variables that need to be considered. This high p-value means the data and results could be by chance. The mean is a good result and it matches the limit of 1500 exactly but there is uncertainty with a large p-value within the statistics for this Lot.
 
-[!ttest_lot2](ttest_lot2.PNG)
+![ttest_lot2](ttest_lot2.PNG)
 
 ### t-test Lot 3
 
 The t-test for lot 3 results shows an ideal p-value of 4%. The numbers of t-value -2.09 is inside an acceptable level for the t-value. The mean of x is close to 1500 and the confidence level of 95% shows this data to be reliable.
 
-[!ttest_lot3](ttest_lot3.PNG)
+![ttest_lot3](ttest_lot3.PNG)
 
 ## Study Design: MechaCar vs Competition
 

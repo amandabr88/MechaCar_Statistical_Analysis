@@ -18,7 +18,7 @@ This linear model cannot be effectively predict as there are only two variables 
 
 Looking into the summary stats of the suspension coils, the 100 pounds per square inch requirement is met. The variance is at 62.2 and that is below the specification of 100 PSI.
 
-[!total_summary](total_summary_deliv2.PNG)
+[!total_summary](/total_summary_deliv2.PNG)
 
 However, the below image shows that lot 3 nearly doubles that variance required and does not meet the specified criteria at that plant. 
 
